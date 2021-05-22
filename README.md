@@ -1,2 +1,2 @@
 # DriveHouse
-Web Site about our diploma project.
+DriveHouse - is a web-site about our application where we talk about its advantages, place a preview, download links, prices and developer contacts.
