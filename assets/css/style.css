@@ -632,7 +632,10 @@ Start of download area section
 End of download area section
 -------------------------------------------------------------------------*/
 
-
+.map{
+	height: 350px;
+	filter: grayscale(100%) invert(92%) contrast(83%);
+ }
 
 
 /*----------------------------------------------------------------------- 
@@ -847,6 +850,65 @@ End of home-2 banner
 /*----------------------------------------------------------------------- 
 Start of team member section
 -------------------------------------------------------------------------*/
+.team-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.team-member-details{
+	max-width:270px;
+
+}
+
+.team-pic{
+	width:270px;
+	height:270px;
+	transition: 0.3s all ease .0s;
+	
+
+}
+
+.member1{
+	background:url(../img/team/1.jpg) no-repeat;
+	background-size: cover;
+}
+.member1:hover{
+	background:url(../img/team/2.jpg) no-repeat;
+	background-size: contain;
+}
+.member2{
+	background:url(../img/team/3.jpg) no-repeat;
+	background-size: contain;
+}
+.member2:hover{
+	background:url(../img/team/4.jpg) no-repeat;
+	background-size: contain;
+}
+
+.member3{
+	background:url(../img/team/5.jpg) no-repeat;
+	background-size: contain;
+}
+.member3:hover{
+	background:url(../img/team/6.jpg) no-repeat;
+	background-size: contain;
+}
+
+.member4{
+	background:url(../img/team/7.jpg) no-repeat;
+	background-size: contain;
+}
+.member4:hover{
+	background:url(../img/team/8.jpg) no-repeat;
+	background-size: contain;
+}
+
+.team-member-details{
+	width: 100%;
+}
 .team-social {
 	padding: 12px;
 }
@@ -891,3 +953,6 @@ End of blog area section
 .load-more {
 	margin-top: 50px;
 }
+
+
+

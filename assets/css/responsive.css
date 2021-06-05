@@ -73,6 +73,13 @@ Author:        HTMLmate
 		text-align: center;
 	}
 }
+@media screen and (max-width: 991px) { 
+	.banner-area-section.home-3.home-2 {
+		overflow: hidden;
+		padding-top: 155px;
+  }
+}
+
 
 @media screen and (max-width: 767px) { 
 	.container {
