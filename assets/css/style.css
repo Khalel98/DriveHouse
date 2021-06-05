@@ -750,7 +750,6 @@ End of of footer sectiion
 
 
 
-
 /*----------------------------------------------------------------------- 
 Start of home-2 banner
 -------------------------------------------------------------------------*/
@@ -956,3 +955,16 @@ End of blog area section
 
 
 
+@media screen and (max-width: 399px) { 
+	.showcase-img{
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 767px) { 
+	.extra-left-content{
+		display: flex;
+		justify-content: center;
+	}
+}
